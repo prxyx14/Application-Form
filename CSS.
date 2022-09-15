@@ -1,0 +1,20 @@
+.hel{
+    background-color: brown;
+    color: rgb(197, 255, 60);
+    text-align: center;
+}
+.m{
+    background-color:rgb(4, 99, 99);
+}
+.n{
+    color: rgb(121, 240, 240);
+}
+button:hover{
+    color:crimson;
+}
+.no:hover{
+    color: crimson;
+}
+.b{
+    background-color: rgb(91, 173, 173);
+}
