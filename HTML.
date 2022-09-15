@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form design</title>
+    <link rel="stylesheet" href="newfrom.css">
+</head>
+<body class="m">
+    <h1 class="hel">Application Form</h1>
+    <h2 class="n" >BASIC FORM....</h2>
+    <form action="#">
+        <fieldset class="b">
+            <h3><u>&#9830 PERSONAL DETAILS</u></h3>
+            <p>
+                <label> First Name:- <input name="firstname"/></input></label>
+            </p>
+            <p>
+                <label>Last Name:- <input nname="lastname"/> </label>
+            </p>
+            <p>
+                Gender: 
+                <label class="no"><input type="radio" name="gender" value="male" />
+                    Male
+                </label>
+                <label class="no"><input type="radio" name="gender" value="female" />
+                    Female
+                </label>
+                <label class="no"><input type="radio" name="gender" value="other" />
+                    Other
+                </label>
+            </p>
+            <p>
+                <label>Email <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>D.O.B: <input type="date" name="D.O.B" /></label>
+            </p>
+            <p>
+                <label>Address
+                    <br />
+                    <textarea name="address" cols="150" rows="7"></textarea>
+                </label>
+            </p>
+            <p>
+                <button type="Submit">Submit</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
